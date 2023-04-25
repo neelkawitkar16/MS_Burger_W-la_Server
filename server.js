@@ -15,5 +15,5 @@ app.get("/", (req,res,next) => {
 })
 
 app.listen(process.env.PORT, () => 
-  console.log(`SERVER is up on PORT: ${process.env.PORT}`)
+  console.log(`SERVER is up on PORT: ${process.env.PORT}, in ${process.env.NODE_ENV} MODE`)
 )
